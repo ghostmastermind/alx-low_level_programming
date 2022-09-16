@@ -10,3 +10,4 @@ int _isalpha(int c)
 		return (i);
 	else
 		return (0);
+}
