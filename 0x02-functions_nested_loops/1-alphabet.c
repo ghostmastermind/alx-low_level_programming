@@ -8,7 +8,7 @@
 void print_alphabet(void)
 /* start of function */
 {
-	Char ch;
+        char *ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
