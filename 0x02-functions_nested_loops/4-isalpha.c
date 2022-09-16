@@ -6,8 +6,24 @@
  */
 int _isalpha(int c)
 {
-	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
-		return (i);
-	else
-		return (0);
+	char i;
+	int lower = 0;
+
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+	if (i == c)
+	{
+	lower = 1;
+	break;
+	}
+	}
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == c)
+		{
+		lower = 1;
+		break;
+		}
+	}
+return (lower);
 }
